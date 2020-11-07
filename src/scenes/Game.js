@@ -29,7 +29,7 @@ class Game extends Phaser.Scene {
 
     this.logo1 = this.physics.add.image(130, 380, 'logo1');
     this.logo1.setScale(0.3);
-    this.logo1.body.setAllowGravity(false)
+    this.logo1.body.setAllowGravity(false);
 
     const logo = this.add.sprite(130, 380, 'logo2');
     logo.setScale(0.3);
